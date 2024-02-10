@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    user-select: none;
+}
+h1{
+    background-color: #333745;
+    color:#fff;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    gap:1.5rem
+}
+#paper{
+    width:5rem;
+    height:5rem;
+    background-image: url("paper.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+#rock{
+    width:5rem;
+    height:5rem;
+    background-image: url("rock.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+#scissor{
+    width:5rem;
+    height:5rem;
+    background-image: url("scissors.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+.choice:hover{
+    transition: opacity 0.3s linear;
+    outline: 3px solid  black;
+    cursor: pointer;
+}
+.score-board{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:2.5rem;
+}
+.score{
+    font-size: 3rem;
+}
+#color{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #473144;
+    display: inline-flex;
+    border-radius: 1rem;
+    padding: 1rem;
+}
